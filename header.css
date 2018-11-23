@@ -16,3 +16,9 @@ a {
     font-size: 21px;
     font-family: "Segoe UI";
 }
+
+nav {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
