@@ -1,0 +1,38 @@
+.description-list {
+    color: #fff;
+    font-family: Arial, "Roboto", sans-serif;
+}
+
+.description-title {
+    font-size: 25px;
+    margin-bottom: 99px;
+}
+
+.description-item {
+    font-size: 20px;
+}
+
+.description-item.-first {
+    margin-bottom: 28px;
+}
+
+.description-item.-second {
+    margin-bottom: 26px;
+}
+
+.description-item.-third {
+    margin-bottom: 73px;
+}
+
+.description-item.-fourth {
+    margin-bottom: 30px;
+}
+
+.description-item.-link {
+    margin-bottom: 100px;
+}
+
+.description-item.-link > a {
+    text-decoration: none;
+    color: #fff;
+}
