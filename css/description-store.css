@@ -36,3 +36,8 @@
     text-decoration: none;
     color: #fff;
 }
+
+.button-left {
+    float: left;
+    margin-right: 38px;
+}
