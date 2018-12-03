@@ -43,3 +43,7 @@
     text-transform: uppercase;
     float: left;
 }
+
+dd {
+    margin-left: 0px;
+}
