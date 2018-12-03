@@ -46,3 +46,16 @@
 h1 {
     margin: 0;
 }
+
+.find {
+    width: 358px;
+    height: 25px;
+    margin-right: 65px;
+    font-size: inherit;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    color: #fff;
+    font-family: inherit;
+}
