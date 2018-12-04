@@ -47,15 +47,20 @@ h1 {
     margin: 0;
 }
 
-.find {
-    width: 358px;
-    height: 25px;
-    margin-right: 65px;
-    font-size: inherit;
-    border-top: none;
-    border-left: none;
-    border-right: none;
+/* Pega qualquer elemneto dentro do header-store que tenha o tipo search */
+.header-store [type="search"] {
     background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: inherit;
+    font-family: Arial, "Roboto", sans-serif;
+    font-size: 20px;
+    width: 358px;
+    /* height: 25px; */
+    padding: 8px;
+    margin-right: 65px;
+}
+
+::placeholder {
     color: #fff;
-    font-family: inherit;
 }
