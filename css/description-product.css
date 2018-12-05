@@ -5,6 +5,7 @@
     width: 554px;
     vertical-align: middle;
     /* text-align: right; */
+    position: relative;
 }
 
 .description-product > .title {
@@ -55,6 +56,14 @@
 .description-product .contrast {
     text-transform: uppercase;
     float: left;
+}
+
+.description-product > .item.-heart {
+    /* float: left; */
+    position: absolute;
+    top: 9px;
+    transform: translateX(calc(-100% - 47px));
+    background-color: pink;
 }
 
 dd {
