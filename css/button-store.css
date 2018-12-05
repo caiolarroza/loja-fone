@@ -21,11 +21,13 @@
     margin-right: 38px;
 }
 
-.button-store > button,
-.button-store > a {
-    font-size: inherit;
-    background-color: inherit;
-    border: none;
-    color: inherit;
-    text-decoration: inherit;
+.button-store:hover {
+    background-color: #fff;
+    color: #252c41;
+}
+
+
+.button-store.-second:hover { 
+background-color: #fff;
+color: #e24647;
 }
