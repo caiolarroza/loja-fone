@@ -41,8 +41,13 @@
 }
 
 .header-store .action:hover {
+    border-bottom: 1px solid #fff;
+  }	
+
+/* .header-store .action:hover:after {
     border-bottom: #fff 1px solid;
-}
+
+} */
 
 .header-store  .action.-last {
     margin-right: 0px;
