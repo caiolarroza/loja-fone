@@ -30,6 +30,21 @@
     float: right;
 }
 
+/* Pega qualquer elemneto dentro do header-store que tenha o tipo search */
+.header-store [type="search"] {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: inherit;
+    font-family: Arial, "Roboto", sans-serif;
+    font-size: 20px;
+    width: 358px;
+    /* height: 25px; */
+    padding: 8px;
+    margin-right: 65px;
+    vertical-align: bottom;
+}
+
 /* .navigation-last {
     clear: right;
 } */
@@ -40,7 +55,6 @@
     color: inherit;
     margin-right: 60px;
     padding-bottom: 8px;
-    border-bottom: 1px solid transparent;
     position: relative;
 }
 
@@ -55,21 +69,6 @@
 
 h1 {
     margin: 0;
-}
-
-/* Pega qualquer elemneto dentro do header-store que tenha o tipo search */
-.header-store [type="search"] {
-    background-color: transparent;
-    border: none;
-    border-bottom: 1px solid #fff;
-    color: inherit;
-    font-family: Arial, "Roboto", sans-serif;
-    font-size: 20px;
-    width: 358px;
-    /* height: 25px; */
-    padding: 8px;
-    margin-right: 65px;
-    vertical-align: bottom;
 }
 
 .header-store .action:after {

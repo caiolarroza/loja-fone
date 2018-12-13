@@ -1,11 +1,11 @@
 .description-product {
     color: #fff;
     font-family: "Roboto", sans-serif;
-    display: inline-block;
+    /* display: inline-block;
     width: 554px;
     vertical-align: middle;
     /* text-align: right; */
-    position: relative;
+    /* position: relative; */
 }
 
 .description-product > .title {
@@ -16,6 +16,19 @@
 .description-product > .item {
     font-size: 20px;
     margin-bottom: 28px;
+}
+
+.description-product > .item.-heart {
+    position: absolute;
+    transform: translateX(-100%);
+    top: 8px;
+    left: -47px;
+    cursor: pointer;
+}
+
+.description-product > .item.-star {
+    margin-bottom: 10px;
+    cursor: pointer;
 }
 
 .description-product > .item.-info {
@@ -32,9 +45,7 @@
     margin-bottom: 0px;
 }
 
-.description-product > .text.-star {
-    margin-bottom: 10px;
-}
+
 
 /* O + faz pegar EXATAMENTE o próximo elemento que possuir a classe específica  */
 .description-product > .item.-star + .item{
@@ -58,13 +69,6 @@
     float: left;
 }
 
-.description-product > .item.-heart {
-    /* float: left; */
-    position: absolute;
-    top: 9px;
-    transform: translateX(calc(-100% - 47px));
-    cursor: pointer;
-}
 
 .description-product .icon:hover {
     transform: scale(1.1);
