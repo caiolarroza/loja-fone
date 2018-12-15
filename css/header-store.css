@@ -88,9 +88,9 @@ h1 {
     transform: scale(1);
 }	 
 
-::placeholder {
+/* ::placeholder {
     color: #fff;
-}
+} */
 
 @media (max-width: 1310px) {
     .header-store {
