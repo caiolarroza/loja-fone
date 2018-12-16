@@ -45,6 +45,10 @@
     vertical-align: bottom;
 }
 
+.header-store [type="search"]::placeholder {
+    color: #fff;
+}
+
 /* .navigation-last {
     clear: right;
 } */
@@ -99,6 +103,10 @@ h1 {
 }
 
 @media (max-width: 1235px) {
+    .header-store {
+        margin-bottom: 70px;
+    }
+
     .header-store > .title {
         float: none;
         text-align: center;
@@ -115,7 +123,6 @@ h1 {
     .header-store {
         padding-left: 30px;
         padding-right: 30px;
-        margin-bottom: 30px;
     }
 
     .header-store [type="search"] {
