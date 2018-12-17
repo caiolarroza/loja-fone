@@ -18,8 +18,7 @@ figure {
 
 @media (max-width: 1325px) {
     .photo-product {
-        /* margin-right: 140px; */
-        border-radius: 0;
+        margin-right: 140px;
         text-align: center;
     }
 }
@@ -29,6 +28,7 @@ figure {
         display: block;
         margin-right: 0;
         margin-bottom: 30px;
+        border-radius: 0;
     }
 }
 
