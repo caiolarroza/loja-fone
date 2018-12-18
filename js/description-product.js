@@ -1,19 +1,23 @@
 const $heart = window.document.querySelector(".-heart");
+const $secondButton = window.document.querySelector(".-second");
+const cart = document.getElementById("count");
 
-console.log("oi ", $heart);
+let count = 10;
 
 $heart.addEventListener("click", handleClick);
+$secondButton.addEventListener("click", handleButtonClick);
+
+console.log("oi ", $heart);
 
 function handleClick() {
     console.log("aeae");
 }
 
-const $secondButton = window.document.querySelector(".-second");
-
 console.log($secondButton);
 
-$secondButton.addEventListener("click", handleButtonClick);
+cart.innerHTML = count;
 
 function handleButtonClick() {
     console.log("alo alo w brasil");
+    cart.innerHTML = ++count;
 }
