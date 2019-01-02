@@ -28,7 +28,7 @@
                     <input type="search" placeholder="Buscar">
                     <a class="action" href="">Produtos</a> 
                     <a class="action" href="">Serviços</a>
-                    <a class="action -last"  href="">Carrinho (<span id="count"></span>)</a>
+                    <a class="action -last"  href="">Carrinho (10)</a>
                 </nav>
             </header>
             
@@ -40,14 +40,32 @@
                 <dl class="description-product">
                     <dt class="title">Fone top, feliz e caro</dt>
                     <div class="item -heart">
-                        <img class="heart icon" src="../img/heart.png" alt="Heart">
+                        <img class="icon" src="../img/heart.png" alt="Heart">
+                        <img class="icon -active" src="../img/heart-active.png" alt="Heart">
                     </div>
                     <dd class="item -star">
-                        <img class="icon" src="../img/star-active.png">
-                        <img class="icon inner-star" src="../img/star-active.png">
-                        <img class="icon inner-star" src="../img/star-active.png">
-                        <img class="icon inner-star" src="../img/star-active.png">
-                        <img class="icon" src="../img/star.png">
+                        <ol>
+                            <li class="star">
+                                <img class="icon" src="../img/star.png">        
+                                <img class="icon -active" src="../img/star-active.png">
+                            </li>
+                            <li class="star">
+                                <img class="icon" src="../img/star.png">        
+                                <img class="icon -active" src="../img/star-active.png">
+                            </li>
+                            <li class="star">
+                                <img class="icon" src="../img/star.png">        
+                                <img class="icon -active" src="../img/star-active.png">
+                            </li>
+                            <li class="star">
+                                <img class="icon" src="../img/star.png">        
+                                <img class="icon -active" src="../img/star-active.png">
+                            </li>
+                            <li class="star">
+                                <img class="icon" src="../img/star.png">        
+                                <img class="icon -active" src="../img/star-active.png">
+                            </li>
+                        </ol>
                     </dd>
                     <dd class="item -number">4.0 (97)</dd>
                     <dd class="item -info"><strong class="contrast">Frete</strong> C$ 108</dd>
@@ -69,5 +87,6 @@
         </div>
 
         <script src="../js/description-product.js"></script>
+        <script src="../js/home.js"></script>
     </body>
 </html>

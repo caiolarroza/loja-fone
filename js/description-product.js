@@ -1,23 +1,20 @@
-const $heart = window.document.querySelector(".-heart");
-const $secondButton = window.document.querySelector(".-second");
-const cart = document.getElementById("count");
-
-let count = 10;
+const $heart = document.querySelector(".-heart");
+const $stars = document.querySelectorAll(".star");
 
 $heart.addEventListener("click", handleClick);
-$secondButton.addEventListener("click", handleButtonClick);
-
-console.log("oi ", $heart);
+$stars.forEach(function ($star){
+    $star.addEventListener("click", handleClick);
+})
 
 function handleClick() {
-    console.log("aeae");
-}
+    $stars.forEach(function ($star){
+        $star.classList.remove("-active");
+    })
 
-console.log($secondButton);
+    this.classList.toggle("-active");
+    const index = Array.prototype.indexOf.call($stars, this);
 
-cart.innerHTML = count;
-
-function handleButtonClick() {
-    console.log("alo alo w brasil");
-    cart.innerHTML = ++count;
+    for (let i = 0; i < index; i++) {
+        $stars[i].classList.add("-active");
+    }
 }

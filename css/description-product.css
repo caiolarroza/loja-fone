@@ -24,6 +24,12 @@
     top: 8px;
     left: -47px;
     cursor: pointer;
+    width: 33px;
+    height: 29px;
+}
+
+.description-product > .item.-active {
+    background-color: #fff;
 }
 
 .description-product > .item.-star {
@@ -45,7 +51,17 @@
     margin-bottom: 0px;
 }
 
+.description-product .star {
+    display: inline-block;
+}
 
+.description-product .star.-active > .icon {
+    display: none;
+}
+
+.description-product .star.-active > .-active {
+    display: block;
+}
 
 /* O + faz pegar EXATAMENTE o próximo elemento que possuir a classe específica  */
 .description-product > .item.-star + .item{
@@ -76,6 +92,18 @@
 
 .description-product .icon {
     transition: transform 100ms linear;
+}
+
+.description-product .icon.-active {
+    display: none;
+}
+
+.description-product > .item.-active .icon {
+    display: none;
+}
+
+.description-product > .item.-active .icon.-active {
+    display: block;
 }
 
 dd {
