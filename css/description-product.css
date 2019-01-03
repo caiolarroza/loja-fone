@@ -130,6 +130,11 @@ dd {
     .description-product > .item.-number {
         padding-top: 4px;
     }
+
+    .description-product > .item.-heart {
+        transform: none;
+        left: auto;
+      }
 }
 
 @media (max-width: 720px) {
