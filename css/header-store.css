@@ -90,7 +90,7 @@ h1 {
  
 .header-store .action:hover:after {
     transform: scale(1);
-}	 
+}
 
 /* ::placeholder {
     color: #fff;
@@ -142,6 +142,13 @@ h1 {
 
     .header-store [type="search"]::placeholder {
         color: #000;
+    }
+
+    .header-store .search-icon {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 39px;
     }
 }
 
