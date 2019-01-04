@@ -126,7 +126,22 @@ h1 {
     }
 
     .header-store [type="search"] {
-        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #fff;
+        transform: translateX(-88%);
+
+        transition: transform 200ms linear;
+    }
+
+    .header-store .-active[type="search"] {
+        transition: transform 300ms cubic-bezier(0, 0, 0.96, 1.26);
+        transform: translateX(0);
+    }
+
+    .header-store [type="search"]::placeholder {
+        color: #000;
     }
 }
 

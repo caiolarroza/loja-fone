@@ -143,3 +143,9 @@ dd {
         min-width: auto;
     }
 }
+
+@media (max-width: 475px) {
+    .description-product > .item.-heart {
+        position: static;
+      }
+}
