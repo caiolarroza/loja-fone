@@ -30,25 +30,6 @@
     float: right;
 }
 
-/* Pega qualquer elemneto dentro do header-store que tenha o tipo search */
-.header-store [type="search"] {
-    background-color: transparent;
-    border: none;
-    border-bottom: 1px solid #fff;
-    color: inherit;
-    font-family: Arial, "Roboto", sans-serif;
-    font-size: 20px;
-    width: 358px;
-    /* height: 25px; */
-    padding: 8px;
-    margin-right: 65px;
-    vertical-align: bottom;
-}
-
-.header-store [type="search"]::placeholder {
-    color: #fff;
-}
-
 /* .navigation-last {
     clear: right;
 } */
@@ -92,6 +73,14 @@ h1 {
     transform: scale(1);
 }
 
+.header-store .search-icon {
+    display: none;
+}
+
+.header-store .close-icon {
+    display: none;
+}
+
 /* ::placeholder {
     color: #fff;
 } */
@@ -125,26 +114,8 @@ h1 {
         padding-right: 30px;
     }
 
-    .header-store [type="search"] {
-        position: absolute;
-        top: 0;
-        left: 0;
-        background-color: #fff;
-        transform: translateX(-88%);
-
-        transition: transform 200ms linear;
-    }
-
-    .header-store .-active[type="search"] {
-        transition: transform 300ms cubic-bezier(0, 0, 0.96, 1.26);
-        transform: translateX(0);
-    }
-
-    .header-store [type="search"]::placeholder {
-        color: #000;
-    }
-
     .header-store .search-icon {
+        display: block;
         position: absolute;
         top: 0;
         left: 0;
@@ -159,8 +130,8 @@ h1 {
         display: none;
         /* position: absolute;
         top: 0;
-        left: 0;
-        width: 39px; */
+        left: 0; */
+        width: 39px;
     }
 
     .header-store .close-icon.-active {
@@ -170,7 +141,6 @@ h1 {
         position: absolute;
         top: 0;
         left: 0;
-        width: 39px;
     }
 }
 
@@ -198,7 +168,7 @@ h1 {
 }
 
 @media (max-width: 335px) {
-    .header-store > .navigation {
+    .header-store .action {
         display:none;
     }
 }
